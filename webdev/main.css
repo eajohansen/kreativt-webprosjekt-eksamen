@@ -1,0 +1,73 @@
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+/*
+ NAVIGASJON
+*/
+.navbar-flag {
+   height: 1em;
+}
+.flag-image-box {
+}
+.navbar-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-main {
+    font-size: 20px;
+    background: #191970;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navbar-main li {
+    display: inline-block;
+    text-align: center;
+}
+.navbar-main li:first-child {
+    margin-left: 15px;
+}
+.navbar-main li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    margin: 0;
+}
+.navbar-main .navbar-link {
+    width: 70%;
+    justify-content: space-around;
+}
+/*
+not working as intended, need some adjustments
+.navbar-link li {
+    border-right: 1px solid black;
+}
+.navbar-link li:last-child {
+    border-right: 0;
+}
+ */
+.navbar-main li a:hover {
+    background: darkblue;
+}
+.navbar-main li a:visited {
+    color: white;
+}
+
+/*
+ NAVIGASJON SLUTT
+*/
+
+.main-body {
+    height: 90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
