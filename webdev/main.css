@@ -6,9 +6,7 @@ body {
     font-size: 16px;
     margin: 0;
 }
-h1 {
-    font-size: 28px;
-}
+
 h2 {
     font-size: 24px;
 }
@@ -17,8 +15,6 @@ h2 {
 */
 .navbar-flag {
    height: 1em;
-}
-.flag-image-box {
 }
 .navbar-main ul {
     list-style-type: none;
