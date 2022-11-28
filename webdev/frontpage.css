@@ -5,7 +5,7 @@ body {
     overflow: clip;
 }
 .navbar-frontpage {
-display: flex;
+    display: flex;
     justify-content: center;
     background: rgb(6,40,62);
     background: linear-gradient(194deg, rgba(6,40,62,1) 0%, rgba(0,51,97,1) 100%);
@@ -16,23 +16,22 @@ display: flex;
     transform: skew(-30deg);
     width: 25%;
     height: 96vh;
-    left:0;
     border: 1px solid black;
     overflow: hidden;
-
 }
 .image-tag {
     width: 100%;
+    position: absolute;
+    top:30%;
+    height: 40%;
 }
+/*
+Plassering av bildene
+ */
 .front-page-image-tilt:first-child {
-    overflow: clip;
-    text-align: end;
     left: 0;
-    transition: 1s ease-in-out;
-    background: black;
 }
 .front-page-image-tilt:nth-child(2) {
-    background: url("images/taipan-snake.jpg");
     left: 25%;
 }
 .front-page-image-tilt:nth-child(3) {
@@ -41,52 +40,65 @@ display: flex;
 .front-page-image-tilt:last-child {
     left: 75%;
 }
-.image-skew {
-    display: block;
-height: auto;
-}
 .image-text {
     color: black;
     font-size: 20px;
-    position: absolute;
-    left: 50%;
+    position: relative;
     opacity: 0;
-    transform: translate(-50%, -50%);
-
-}
-.text-over-image {
-    position: absolute;
-
-}
-.text-over-image a {
-    top: 40%;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 15%;
-    margin: 10px;
-}
-.text-over-image h2 {
-    top: 30%;
 }
 /*
-Hover first image box
+Overlay over bildet
 */
-.front-page-image-tilt:first-child:hover {
+
+.text-over-image .container-text-over-image {
+    text-align: center;
+    position: absolute;
+    top:30%;
+    padding: 10%;
+
+}
+
+
+.text-over-image a {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    transform: skew(0deg);
+}
+/*
+* Overlay over bildet slutt
+*/
+
+/*
+* Hover bilder og les mer
+*/
+.front-page-image-tilt:hover {
     background: black;
     z-index: 100;
+    transition: 1s;
 }
-.front-page-image-tilt:first-child:hover .image-text  {
+.front-page-image-tilt:hover:nth-child(2){
+    background: #362D23;
+}
+.front-page-image-tilt:hover:first-child{
+    background: #070d21;
+}
+.front-page-image-tilt:hover .image-text  {
     visibility: visible;
     opacity: 1;
     color:white;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
-.front-page-image-tilt:first-child:hover .image-tag  {
-    transition: 1s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
+.front-page-image-tilt:hover .image-tag  {
+    transition: 0.5s ease-in-out;
+    opacity: 0.1;
 }
 .front-page-image-tilt:first-child a:hover {
-    background: pink;
+    background: #2A3350;
+}.front-page-image-tilt:nth-child(2) a:hover {
+    background: #956228;
 }
-
+/*
+Hover første bilde slutt
+*/

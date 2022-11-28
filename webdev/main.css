@@ -1,10 +1,16 @@
 body {
     background: rgb(20,35,196);
-    background: linear-gradient(194deg, rgba(20,35,196,1) 0%, rgba(0,30,55,1) 62%, rgba(5,0,101,1) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgba(5,0,101,1) 100%);
     color: white;
     font-family: sans-serif;
     font-size: 16px;
     margin: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
 }
 /*
  NAVIGASJON
