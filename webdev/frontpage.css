@@ -15,22 +15,24 @@ display: flex;
     position: absolute;
     transform: skew(-30deg);
     width: 25%;
-    height: 95vh;
+    height: 96vh;
     left:0;
     border: 1px solid black;
-    margin-top:3%;
-    overflow: clip;
+    overflow: hidden;
+
+}
+.image-tag {
+    width: 100%;
 }
 .front-page-image-tilt:first-child {
-    background: url("images/boxjellyfish2.webp");
-    background-size: contain;
-    overf5ow: clip;
+    overflow: clip;
     text-align: end;
     left: 0;
+    transition: 1s ease-in-out;
+    background: black;
 }
 .front-page-image-tilt:nth-child(2) {
     background: url("images/taipan-snake.jpg");
-    background-size: contain;
     left: 25%;
 }
 .front-page-image-tilt:nth-child(3) {
@@ -44,26 +46,47 @@ display: flex;
 height: auto;
 }
 .image-text {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
-    top: 50%;
     left: 50%;
     opacity: 0;
     transform: translate(-50%, -50%);
 
 }
-.front-page-image-tilt:hover {
-    opacity: 1;
-    background: pink;
-}
-.front-page-image-tilt:hover .image-text{
-    opacity: 1;
-    background: pink;
+.text-over-image {
+    position: absolute;
+
 }
 .text-over-image a {
+    top: 40%;
     border: 1px solid black;
     padding: 5px;
     border-radius: 15%;
     margin: 10px;
 }
+.text-over-image h2 {
+    top: 30%;
+}
+/*
+Hover first image box
+*/
+.front-page-image-tilt:first-child:hover {
+    background: black;
+    z-index: 100;
+}
+.front-page-image-tilt:first-child:hover .image-text  {
+    visibility: visible;
+    opacity: 1;
+    color:white;
+    transition: 1s ease-in-out;
+}
+.front-page-image-tilt:first-child:hover .image-tag  {
+    transition: 1s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.front-page-image-tilt:first-child a:hover {
+    background: pink;
+}
+

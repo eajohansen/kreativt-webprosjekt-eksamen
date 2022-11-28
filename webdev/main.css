@@ -61,8 +61,164 @@ body {
 */
 
 .main-body {
-    height: 90vh;
+    height: 96vh;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+/*
+RULLETEKST
+ */
+.outer-wrapper {
+    position: absolute;
+    padding: 10px;
+    height: 200px;
+    width: 800px;
+    border: 10px solid springgreen;
+    display:flex;
+    overflow-wrap: break-word;
+    overflow: hidden;
+
+}
+.wrapper {
+    position: relative;
+    top: 100%;
+    left: 0%;
+    width: 1600px;
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+    animation: 10s credits linear infinite;
+    animation-delay: 1s;
+}
+
+.title {
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+
+@keyframes credits {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -200%;
+    }
+}
+/*
+RULLETEKST SLUTT
+ */
+
+/*her starter koden for hvordan fun-fact-box skal se ut*/
+body{
+    background-color: green;
+}
+.fun-fact-box {
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+    border: solid yellow 5px;
+
+}
+
+.box {
+    perspective: 500px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    left: 50%;
+    transform: rotate3d( 1, 1, 0,-20deg);
+    transform-style: preserve-3d;
+    animation-name: lololol;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 4%;
+    color: red;
+    background: black;
+    border: 2px solid white;
+    font-size: 100%;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+
+#box-right {
+    left: 50%;
+    top: 2.5%;
+    height: 109%;
+    transform: rotateY(90deg);
+}
+
+#box-front {
+    left: 13%;
+    bottom: 10%;
+    transform: translateZ(85px);
+}
+
+#box-top {
+    width: 109%;
+    right: 1%;
+    bottom: 47%;
+    transform: rotateX(90deg);
+
+}
+
+
+/*her slutter koden for hvordan fun-fact-box skal se ut*/
+
+.isonfndas {
+    position: relative;
+    top: 25%;
+    height: 90%;
+    background: black;
+}
+/*her starter hover for box*/
+
+.box:hover {
+    cursor: pointer;
+    animation-name: stop-rotate;
+}
+
+
+
+@keyframes lololol {
+    0% {
+        rotate: 5deg;
+    }
+    25% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: -5deg;
+    }
+    75% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 5deg;
+    }
+}
+
+@keyframes stop-rotate {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
 }
