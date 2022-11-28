@@ -1,3 +1,6 @@
+/*
+Generell styling av hovedside
+ */
 body {
     max-height: 100vh;
     max-width: 100vw;
@@ -28,6 +31,10 @@ body {
     margin-left: 3px;
 }
 
+
+/*
+Animasjon av tittelen på hovedside
+ */
 
 .animate-title-frontpage span{
     display: inline-block;
@@ -128,7 +135,9 @@ body {
 .animate-title-frontpage span:nth-child(30) {
     animation-delay: 0s;
 }
-
+/*
+Animasjon av tittelen på hovedside slutt
+ */
 
 
 /*
@@ -155,7 +164,6 @@ Plassering av bildene
 /*
 Overlay over bildet
 */
-
 .text-over-image .container-text-over-image {
     text-align: center;
     position: absolute;
@@ -163,9 +171,6 @@ Overlay over bildet
     padding: 10%;
     transform: skew(30deg);
 }
-
-
-
 .text-over-image a {
     border: 1px solid white;
     padding: 10px;

@@ -68,40 +68,42 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.layout-underpages {
+    display: flex;
+    justify-content: space-around;
+}
 
 /*
 RULLETEKST
  */
-.outer-wrapper {
+.scrolling-text-outer-wrapper {
+    top: 10%;
     position: absolute;
-    padding: 10px;
-    height: 200px;
+    padding: 25px;
+    height: 70vh;
     width: 800px;
-    border: 10px solid springgreen;
+    border: 1px solid black;
+    border-radius: 10px;
     display:flex;
     overflow-wrap: break-word;
     overflow: hidden;
 
 }
-.wrapper {
+.scrolling-text-wrapper {
     position: relative;
     top: 100%;
-    left: 0%;
+    left: 0;
     width: 1600px;
     font-family: sans-serif;
     text-align: left;
-    color: black;
-    animation: 10s credits linear infinite;
+    color: white;
+    animation: 60s credits linear infinite;
     animation-delay: 1s;
 }
-
-.title {
+.scrolling-text-title {
     margin-bottom: 5px;
     font-size: 20px;
-
 }
-
-
 @keyframes credits {
     0% {
         top: 100%;
@@ -122,10 +124,8 @@ body{
     height: 60%;
     width: 30%;
     position: absolute;
-    top: 40%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-
+    top: 10%;
+    right: 0;
     border: solid yellow 5px;
 
 }
