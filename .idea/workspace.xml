@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff300f3-4bc1-4090-b2a4-3716d49359c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdev/images/taipan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/crocodile.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/crocodile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/jellyfish.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/octopus.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/octopus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/images/taipan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/jellyfish.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webdev/octopus.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/octopus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/taipan.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/taipan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/taipan.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/taipan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +51,7 @@
       <recent name="C:\Users\Eirik\Documents\GitHub\kreativt-webprosjekt-eksamen\webdev" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jellyfish.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kreativt-webprosjekt-eksamen/webdev/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -74,8 +60,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.jellyfish.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.jellyfish.html" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669829447374</updated>
       <workItem from="1669829449199" duration="5854000" />
-      <workItem from="1669904544306" duration="12162000" />
+      <workItem from="1669904544306" duration="12619000" />
     </task>
     <servers />
   </component>
