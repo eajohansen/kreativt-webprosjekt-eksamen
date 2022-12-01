@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ff300f3-4bc1-4090-b2a4-3716d49359c6" name="Changes" comment="" />
+    <list default="true" id="2ff300f3-4bc1-4090-b2a4-3716d49359c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webdev/BoxCode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/test-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/jellyfish.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,22 +29,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Eirik/Documents/GitHub/kreativt-webprosjekt-eksamen",
+    "last_opened_file_path": "C:/Kristiania/Programmering/kreativt-webprosjekt-eksamen/webdev",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kristiania\Programmering\kreativt-webprosjekt-eksamen\webdev" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Eirik\Documents\GitHub\kreativt-webprosjekt-eksamen\webdev" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.jellyfish.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kreativt-webprosjekt-eksamen/webdev/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="jellyfish.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kreativt-webprosjekt-eksamen/webdev/jellyfish.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.jellyfish.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -51,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669829447374</updated>
       <workItem from="1669829449199" duration="5854000" />
+      <workItem from="1669904544306" duration="3113000" />
     </task>
     <servers />
   </component>

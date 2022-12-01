@@ -84,17 +84,17 @@ FLAGG
  NAVIGASJON
 */
 .navbar-flag {
-   height: 1em;
+    height: 1em;
 }
 .navbar-main ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.navbar-main {
+.navbar-main { /*!!!!!!!!!!*/
     font-size: 20px;
-    background: rgb(18,127,196);
-    background: linear-gradient(194deg, rgba(18,127,196,1) 0%, rgba(0,46,55,1) 62%, rgba(0,51,97,1) 100%);
+    background: rgb(8, 47, 72);
+    background: linear-gradient(194deg, rgb(1, 10, 37) 0%, rgb(10, 5, 71) 62%, rgb(6, 41, 72) 100%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,13 +147,13 @@ FLAGG
 /*
 RULLETEKST
  */
-.scrolling-text-outer-wrapper {
-    top: 10%;
+.scrolling-text-outer-wrapper { /*!!!!!!*/
+    top: 15%;
     position: absolute;
-    padding: 25px;
-    height: 70vh;
-    width: 800px;
-    border: 1px solid black;
+    padding: 30px;
+    height: 63vh;
+    width: 600px;
+    border: 1px solid turquoise;
     border-radius: 10px;
     display:flex;
     overflow-wrap: break-word;
@@ -191,11 +191,11 @@ RULLETEKST SLUTT
 body{
     background-color: green;
 }
-.fun-fact-box {
+.fun-fact-box { /*!!!!!!*/
     height: 60%;
     width: 30%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 0;
     border: solid yellow 5px;
 
@@ -294,4 +294,14 @@ body{
     100% {
         rotate: 0deg;
     }
+}
+
+.picture-gallery{ /*!!!!!!!!*/
+    height: 70%;
+    width: 30%;
+    border: 2px turquoise solid;
+    left: 0%;
+    top: 15%;
+    position: absolute;
+
 }
