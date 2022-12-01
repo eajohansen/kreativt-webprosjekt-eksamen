@@ -1,23 +1,19 @@
 @keyframes picture-gallary{
     0% {
-        background-image: url(images/box-jellyfish.png);
-        width: 30%;
-        height: 30%;
+        background-image: url(images/box-jellyfish-1.png);
+        background-size: 100% 100%;
     }
     33%{
-        background-image: url(images/croc.png);
-        width: 30%;
-        height: 70%;
+        background-image: url(images/box-jellyfish-2.png);
+        background-size: 100% 100%;
     }
     66%{
-        background-image: url(images/octy.png);
-        width: 30%;
-        height: 40%;
+        background-image: url(images/box-jellyfish-3.png);
+        background-size: 100% 100%;
     }
     100%{
-        background-image: url(images/box-jellyfish.png);
-        width: 30%;
-        height: 30%;
+        background-image: url(images/box-jellyfish-1.png);
+        background-size: 100% 100%;
     }
 
 }

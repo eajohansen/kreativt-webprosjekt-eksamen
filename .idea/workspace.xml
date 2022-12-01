@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff300f3-4bc1-4090-b2a4-3716d49359c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/blue-ringed_Octopus-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/salt-water-crocodile-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/taipan-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/taipan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/crocodile.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/crocodile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/jellyfish.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdev/taipan.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/taipan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/crocodile.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/crocodile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/jellyfish.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/octopus.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/octopus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/octopus.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/octopus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/taipan.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/taipan.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +50,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Kristiania/Programmering/kreativt-webprosjekt-eksamen/webdev",
+    "last_opened_file_path": "C:/Kristiania/Programmering/kreativt-webprosjekt-eksamen/webdev/images",
     "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kristiania\Programmering\kreativt-webprosjekt-eksamen\webdev\images" />
       <recent name="C:\Kristiania\Programmering\kreativt-webprosjekt-eksamen\webdev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669829447374</updated>
       <workItem from="1669829449199" duration="5854000" />
-      <workItem from="1669904544306" duration="11327000" />
+      <workItem from="1669904544306" duration="12162000" />
     </task>
     <servers />
   </component>
