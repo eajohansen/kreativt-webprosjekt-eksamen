@@ -16,9 +16,9 @@ FLAGG
 
 #cont{
     background-color: transparent;
-    padding-top: 10px;
+    padding-top: 16px;
     width: 20px;
-    height: 10px;
+    height: 14px;
     perspective: 1000px;
     z-index: 200;
     margin-left: 20px;
@@ -44,8 +44,12 @@ FLAGG
     position: absolute;
     height: 50%;
     width: 50%;
+    padding: 5%;
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
+}
+#cont:hover img {
+    visibility: hidden;
 }
 #cont:hover #flag-front {
     visibility: visible;
@@ -91,11 +95,10 @@ FLAGG
     margin: 0;
     padding: 0;
 }
-.navbar-main { /*!!!!!!!!!!*/
+.navbar-main {
     font-size: 20px;
     background: rgb(8, 47, 72);
-    background: linear-gradient(194deg, rgb(1, 10, 37) 0%, rgb(10, 5, 71) 62%, rgb(6, 41, 72) 100%);
-    display: flex;
+    background: linear-gradient(194deg, rgb(1, 4, 15) 0%, rgb(6, 4, 47) 62%, rgb(27, 2, 77) 100%);display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -119,7 +122,7 @@ FLAGG
 }
 
 .navbar-main li a:hover {
-    background: pink;
+    background: rgba(4, 1, 26, 0.904);
 }
 .navbar-main li a:visited {
     color: white;
@@ -147,12 +150,12 @@ FLAGG
 /*
 RULLETEKST
  */
-.scrolling-text-outer-wrapper { /*!!!!!!*/
+.scrolling-text-outer-wrapper {
     top: 15%;
     position: absolute;
-    padding: 30px;
+    padding: 30px 30px 30px 10px;
     height: 63vh;
-    width: 600px;
+    width: 30%;
     border: 1px solid turquoise;
     border-radius: 10px;
     display:flex;
@@ -168,8 +171,8 @@ RULLETEKST
     font-family: sans-serif;
     text-align: left;
     color: white;
-    animation: 60s credits linear infinite;
-    animation-delay: 1s;
+    animation: 100s credits linear infinite;
+    animation-play-state: running;
 }
 .scrolling-text-title {
     margin-bottom: 5px;
@@ -183,93 +186,125 @@ RULLETEKST
         top: -200%;
     }
 }
+#stop-scrolling-text {
+    display: none;
+}
+#start-scrolling-text {
+    display: none;
+}
+#stop-scrolling-text ~ label {
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    height: 20px;
+    margin-right: 5px;
+}
+#start-scrolling-text ~ label {
+    display: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    height: 20px;
+    margin-right: 5px;
+}
+#stop-scrolling-text:checked ~ .scrolling-text-wrapper{
+    animation-name: credits;
+    animation-play-state: paused;
+}
+#start-scrolling-text:checked ~ .scrolling-text-wrapper{
+    animation-name: credits;
+    animation-play-state: running;
+}
 /*
 RULLETEKST SLUTT
  */
 
-/*her starter koden for hvordan fun-fact-box skal se ut*/
-body{
-    background-color: green;
-}
-.fun-fact-box { /*!!!!!!*/
+/*container-fun-fact start*/ /*alternativ: fun-fact start*/
+
+.container-fun-fact {
     height: 60%;
     width: 30%;
     position: absolute;
-    top: 15%;
-    right: 0;
-    border: solid yellow 5px;
-
+    top: 45%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border: solid transparent 5px;
 }
 
-.box {
+.container-for-fun-fact-box {
+    border: solid 2px transparent;
+    width: 20%;
+    height: 20%;
+    top: 1%;
+    left: 40%;
+    position: relative;
+}
+
+.fun-fact-box {
     perspective: 500px;
     width: 80px;
     height: 80px;
     text-align: center;
-    position: absolute;
-    top:15px;
-    left: 50%;
+    top: 100px;
+    left: 100px;
     transform: rotate3d( 1, 1, 0,-20deg);
     transform-style: preserve-3d;
-    animation-name: lololol;
+    animation-name: fun-fact-box-rotate;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
 
-.side {
+.fun-fact-side {
     width: 100%;
     height: 100%;
     text-align: center;
     padding: 4%;
-    color: red;
-    background: black;
+    color: white;
+    background: rgb(0,87,255);
+    background: linear-gradient(180deg, rgb(0, 16, 49) 0%, rgb(45, 11, 65) 47%, rgb(45, 0, 0) 100%);
     border: 2px solid white;
-    font-size: 100%;
+    font-size: 24px;
     box-sizing: border-box;
     position: absolute;
 
 }
 
-#box-right {
+/*fun-fact-box-X-side plassering start*/
+
+#fun-fact-box-right-side {
     left: 50%;
     top: 2.5%;
     height: 109%;
     transform: rotateY(90deg);
 }
 
-#box-front {
-    left: 13%;
-    bottom: 10%;
+#fun-fact-box-front-side {
+    left: 11%;
+    bottom: 8%;
     transform: translateZ(85px);
 }
 
-#box-top {
+#fun-fact-box-top-side {
     width: 109%;
-    right: 1%;
+    right: 0%;
     bottom: 47%;
     transform: rotateX(90deg);
 
 }
 
+/*fun-fact-box-X-side plassering slutt*/
 
-/*her slutter koden for hvordan fun-fact-box skal se ut*/
 
-.isonfndas {
-    position: relative;
-    top: 25%;
-    height: 90%;
-    background: black;
-}
 /*her starter hover for box*/
 
-.box:hover {
+.fun-fact-box:hover {
     cursor: pointer;
-    animation-name: stop-rotate;
+    animation-name: fun-fact-box-stop-rotate;
 }
 
 
-
-@keyframes lololol {
+/*animasjon av fun-fact-box start*/
+@keyframes fun-fact-box-rotate {
     0% {
         rotate: 5deg;
     }
@@ -287,7 +322,7 @@ body{
     }
 }
 
-@keyframes stop-rotate {
+@keyframes fun-fact-box-stop-rotate {
     0% {
         rotate: 0deg;
     }
@@ -296,7 +331,39 @@ body{
     }
 }
 
-.picture-gallery{ /*!!!!!!!!*/
+/*animasjon av fun-fact-box slutt*/
+
+.container-for-fun-fact-info-drop {
+    background-color: red;
+    width: 90%;
+    height: 75%;
+    top: 25%;
+    left: 5%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    background: black;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.fun-fact-info-drop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container-fun-fact:hover .container-for-fun-fact-info-drop{
+    opacity: 0.8;
+}
+
+/* slutt container-fun-fact*/
+/*alternativ: fun-fact slutt*/
+
+.picture-gallery{
     height: 70%;
     width: 30%;
     border: 2px turquoise solid;
