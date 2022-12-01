@@ -171,7 +171,7 @@ RULLETEKST
     font-family: sans-serif;
     text-align: left;
     color: white;
-    animation: 100s credits linear infinite;
+    animation: 80s credits linear infinite;
     animation-play-state: running;
 }
 .scrolling-text-title {
@@ -183,7 +183,7 @@ RULLETEKST
         top: 100%;
     }
     100% {
-        top: -200%;
+        top: -130%;
     }
 }
 #stop-scrolling-text {
@@ -306,7 +306,6 @@ RULLETEKST SLUTT
     animation-name: fun-fact-box-stop-rotate;
 }
 
-
 /*animasjon av fun-fact-box start*/
 @keyframes fun-fact-box-rotate {
     0% {
@@ -404,7 +403,7 @@ BILDE GALLERI
 img{
     width: 100%;
 }
-.picture-gallery:hover p{
+.picture-gallery:hover h3{
     display: none;
 }
 
