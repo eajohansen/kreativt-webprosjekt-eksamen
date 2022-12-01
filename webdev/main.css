@@ -192,6 +192,9 @@ RULLETEKST
 #start-scrolling-text {
     display: none;
 }
+#stop-scrolling-text ~ label:hover {
+    cursor: pointer;
+}
 #stop-scrolling-text ~ label {
     border-radius: 5px;
     border: 2px solid white;
@@ -363,12 +366,43 @@ RULLETEKST SLUTT
 /* slutt container-fun-fact*/
 /*alternativ: fun-fact slutt*/
 
-.picture-gallery{
-    height: 70%;
+
+/*
+BILDE GALLERI
+ */
+
+.picture-gallery {
+    height: 30%;
     width: 30%;
-    border: 2px turquoise solid;
+    max-height: 70vh;
+    position: fixed;
+    border: 2px transparent solid;
+    border-radius: 15px;
+    background-color: transparent;
     left: 0%;
     top: 15%;
-    position: absolute;
-
+    text-align: center;
 }
+.picture-gallery-text {
+    font-family: Lucida Handwriting, bold, cursive;
+    font-size: 40px;
+    padding-top: 5%;
+    color: rgb(0,87,255);
+}
+
+.picture-gallery:hover{
+    height: 70%;
+    width: 30%;
+    cursor: pointer;
+    animation-name: picture-gallary;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+img{
+    width: 100%;
+}
+.picture-gallery:hover p{
+    display: none;
+}
+

@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff300f3-4bc1-4090-b2a4-3716d49359c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webdev/crocodile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/box-jellyfish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/croc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/images/octy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/jellyfish.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/octopus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdev/taipan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/BoxCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/eksamentest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webdev/jellyfish.html" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/jellyfish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webdev/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/webdev/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdev/test-css.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Kristiania/Programmering/kreativt-webprosjekt-eksamen/webdev",
+    "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -36,6 +55,7 @@
       <recent name="C:\Kristiania\Programmering\kreativt-webprosjekt-eksamen\webdev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Kristiania\Programmering\kreativt-webprosjekt-eksamen\webdev\images" />
       <recent name="C:\Users\Eirik\Documents\GitHub\kreativt-webprosjekt-eksamen\webdev" />
     </key>
   </component>
@@ -62,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669829447374</updated>
       <workItem from="1669829449199" duration="5854000" />
-      <workItem from="1669904544306" duration="8469000" />
+      <workItem from="1669904544306" duration="9542000" />
     </task>
     <servers />
   </component>
