@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    margin: 50px;
+    display: flex;
+    overflow: hidden;
+    height: 90vh;
+}
+
+#cont{
+    background-color: transparent;
+    width: 150px;
+    height: 100px;
+    perspective: 1000px;
+
+}
+
+#inner-cont{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition:transform;
+    transform-style: preserve-3d;
+    transition-duration: 2s;
+    
+}
+
+#cont:hover #inner-cont{
+transform: rotateY(-180deg);
+}
+
+#cont:hover{
+    height: 100%;
+    width: 100%;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+    }
+    
+#flag-front, #flag-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 5%;
+
+}
+
+#flag-front{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+
+#flag-back{
+    background-color: red;
+    color: aliceblue;
+    transform: rotateY(180deg);
+}
+
