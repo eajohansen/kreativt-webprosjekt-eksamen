@@ -156,7 +156,7 @@ RULLETEKST
     padding: 30px 30px 30px 10px;
     height: 63vh;
     width: 30%;
-    border: 1px solid turquoise;
+    border: 1px solid #383838;
     border-radius: 10px;
     display:flex;
     overflow-wrap: break-word;
@@ -196,8 +196,9 @@ RULLETEKST
     cursor: pointer;
 }
 #stop-scrolling-text ~ label {
+    color: darkred;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid darkred;
     padding: 10px;
     height: 20px;
     margin-right: 5px;
@@ -349,6 +350,7 @@ RULLETEKST SLUTT
     border: 2px solid transparent;
     border-radius: 5%;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .fun-fact-info-drop {
